@@ -1,4 +1,4 @@
-package java.userservice.controller;
+package userservice.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import jakarta.validation.Valid;
-import java.userservice.dto.RegisterRequest;
-import java.userservice.dto.UserResponse;
-import java.userservice.servies.UserService;
+import userservice.dto.RegisterRequest;
+import userservice.dto.UserResponse;
+import userservice.servies.UserService;
 
 @RestController
 @RequestMapping("/api/users")

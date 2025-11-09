@@ -1,7 +1,7 @@
-package java.userservice.repository;
+package userservice.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import java.userservice.entities.User;
+import userservice.entities.User;
 
 public interface UserRepository extends JpaRepository<User, String> {
     

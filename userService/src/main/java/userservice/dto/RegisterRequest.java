@@ -1,4 +1,4 @@
-package java.userservice.dto;
+package userservice.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

@@ -1,4 +1,4 @@
-package java.userservice.entities;
+package userservice.entities;
 
 public enum UserRole {
 	USER,

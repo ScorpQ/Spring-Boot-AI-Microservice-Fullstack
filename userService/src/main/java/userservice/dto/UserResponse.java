@@ -1,8 +1,8 @@
-package java.userservice.dto;
+package userservice.dto;
 
 import java.time.LocalDateTime;
 import lombok.Data;
-import java.userservice.entities.User;
+import userservice.entities.User;
 
 @Data
 public class UserResponse {

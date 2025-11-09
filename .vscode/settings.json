@@ -1,0 +1,12 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.project.sourcePaths": [
+        "userService/src/main/java"
+    ],
+    "java.project.outputPath": "userService/target/classes",
+    "java.project.referencedLibraries": [
+        "userService/target/**/*.jar"
+    ]
+}

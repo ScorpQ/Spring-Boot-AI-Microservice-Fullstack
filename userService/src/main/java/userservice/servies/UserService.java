@@ -1,9 +1,9 @@
-package java.userservice.servies;
+package userservice.servies;
 
-import java.userservice.entities.User;
-import java.userservice.dto.UserResponse;
-import java.userservice.dto.RegisterRequest;
-import java.userservice.repository.UserRepository;
+import userservice.entities.User;
+import userservice.dto.UserResponse;
+import userservice.dto.RegisterRequest;
+import userservice.repository.UserRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 
