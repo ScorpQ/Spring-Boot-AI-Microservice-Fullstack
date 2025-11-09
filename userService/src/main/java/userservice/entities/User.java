@@ -1,4 +1,4 @@
-package userservice.entities;
+package java.userservice.entities;
 
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
