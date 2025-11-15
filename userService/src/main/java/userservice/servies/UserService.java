@@ -29,4 +29,7 @@ public class UserService {
         return new UserResponse(savedUser);
     }
 
+    public boolean existsByUserId(String userId) {
+        return userRepository.existsById(userId);
+    }
 }
